@@ -10,4 +10,4 @@ You can specify payment-path and payment-arg rather than payment-amount for put-
 --payment-arg "amount:U512='5000000000'" 
 ```
 
-Entire command see [note](./note)
+Entire command see [note](./note.md)
