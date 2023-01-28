@@ -8,8 +8,15 @@ casper-contract = "1.4.3"
 casper-types = "1.4.6"
 
 [[bin]]
-name = "setpaymentpurse"
-path = "src/setpaymentpurse.rs"
+name = "contract"
+path = "src/main.rs"
+bench = false
+doctest = false
+test = false
+
+[[bin]]
+name = "contract1"
+path = "src/main1.rs"
 bench = false
 doctest = false
 test = false
@@ -17,13 +24,6 @@ test = false
 [[bin]]
 name = "prepare"
 path = "src/prepare.rs"
-bench = false
-doctest = false
-test = false
-
-[[bin]]
-name = "contract"
-path = "src/main.rs"
 bench = false
 doctest = false
 test = false
